@@ -1,0 +1,222 @@
+h1 {
+    font-family: "salbabida-sans-pro", sans-serif;
+    font-weight: 400;
+font-style: normal;
+    font-size: 36px;
+    color: #343434;
+}
+
+p {
+    font-family: 'open sans-serif', arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #F3EDFF;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+.container img {
+    display: flex;
+    float: left;
+    width: 25%;
+    z-index: 2;
+    margin: 10px;
+        }
+
+.container nav {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.skillsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    padding-bottom: 75px;
+}
+
+.heroImg {
+    margin-left: auto;
+    margin-right: 5%;
+    align-items: center;
+    display: flex;
+    width: 25%;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: auto;
+    width: 35%;
+    margin-top: 25px;
+}
+
+.buttonResume {
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: #C6B5E9;
+    background-color: #F3EDFF;
+}
+
+.contact {
+    padding: 100px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.imgcasestudy {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.casestudies {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    padding: 25px;
+}
+
+.accordion {
+    background-color: #C6B5E9;
+    display: block;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    border-top: 2px round #343434;
+    border-bottom: 2px round #343434;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 600px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #F3EDFF;
+    border: 2px solid #C6B5E9;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .accordion:after {
+    content: '\02795'; 
+    font-size: 13px;
+    color: #343434;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
+
+  .footer svg {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    bottom:0;
+    margin-top: 50px;
+  }
+
+footer {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-content: center;
+    margin: 10%;
+  }
+
+  .footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    float:left;
+  }
+
+  .footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 10px;
+  }
+
+  #svg {
+    display: flex;
+      font-size: 2rem;
+      font-family: "salbabida-sans-pro", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 36px;
+      letter-spacing: 4px;
+  }
+  
+  #curve {
+      fill: transparent;
+  }
+
+  
